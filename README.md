@@ -1,15 +1,16 @@
 # Parameter Indentifiability: Personalising the Eindhoven Diabetes Education Simulator
-Tutorial on parameter uniqueness/identifiability as part of the VITAL Training School 1, Delft University of Technology. 
+This is the repository for the Tutorial on parameter uniqueness/identifiability as part of the VITAL Training School 1, Delft University of Technology on March 19th 2025. 
+
+## About the Tutorial
+Computational models are a valuable tool to study dynamic interactions and the evolution of systems behavior. Our hands-on and interactive workshop will demonstrate how personalized models can be more rapidly generated in Julia using various SciML packages combined with custom implementations. We will cover the implementation of ODE models in Julia, parameter estimation and model selection strategies including parameter sensitivity and identifiability analysis.
+
+Computational models offer a valuable tool for understanding the dynamic interactions between different biological entities, especially in biomedical applications. Personalizing these models with data can shed light on interindividual variation and project future health risks. However, for model parameters to be meaningful and useful for interpretation it is important that they can be accuractely identifed from available data. Our hands-on and interactive workshop will demonstrate how personalized models can be more rapidly generated in Julia. We will be mainly using DifferentialEquations.jl combined with Optimization.jl. We will use an in-house model of the glucose-insulin system (Eindhoven Diabetes Education Simulator) we will breifly cover the implementation and resolving of ODE systems in Julia. We will provide a guide on performing identifiability analysis using inbuilt Julia packages such as StructuralIdentifiabilty.jl and a implementation of Profile Likelhood Analysis [2] with a variable step. For Matlab users and implementation of the model and PLA algorithm can also be provided in Matlab. Short presentation will be used to provide necessary background and theory and all methods will be implemented in a Jupyter notebook to facilitate independent learning.
 
 
 ## Organizers
 Shauna O'Donovan |  Max de Rooij | 
 |:---:|:---:|
 <img src="figures/O_Donovan_Shauna_BME_PO_VH_1529_UD.jpg.webp" width=90 height=120>  | <img src="figures/de_Rooij_Max_BME_PROM_PO_AS_7631.jpg.webp" width=90 height=120> | 
-
-Computational models are a valuable tool to study dynamic interactions and the evolution of systems behavior. Our hands-on and interactive workshop will demonstrate how personalized models can be more rapidly generated in Julia using various SciML packages combined with custom implementations. We will cover the implementation of ODE models in Julia, parameter estimation and model selection strategies including parameter sensitivity and identifiability analysis.
-
-Computational models offer a valuable tool for understanding the dynamic interactions between different biological entities, especially in biomedical applications. Personalizing these models with data can shed light on interindividual variation and project future health risks. However, for model parameters to be meaningful and useful for interpretation it is important that they can be accuractely identifed from available data. Our hands-on and interactive workshop will demonstrate how personalized models can be more rapidly generated in Julia. We will be mainly using DifferentialEquations.jl combined with Optimization.jl. We will use an in-house model of the glucose-insulin system (Eindhoven Diabetes Education Simulator) we will breifly cover the implementation and resolving of ODE systems in Julia. We will provide a guide on performing identifiability analysis using inbuilt Julia packages such as StructuralIdentifiabilty.jl and a implementation of Profile Likelhood Analysis [2] with a variable step. For Matlab users and implementation of the model and PLA algorithm can also be provided in Matlab. Short presentation will be used to provide necessary background and theory and all methods will be implemented in a Jupyter notebook to facilitate independent learning.
 
 # Contents
 During the workshop, we will address the following elements of dynamic modelling in (systems) biology:
