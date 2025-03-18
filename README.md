@@ -23,10 +23,8 @@ Parameter identifiability analysis with profile likelihood.
 
 ## Program
 The workshop starts with a short introductory presentation, outlining the releavnce of the gluocse-insulin system in maintaining metabolic resilence, the Eindhoven Diabetes Education Simulator (EDES), a computational model of the glucose-insulin system that has been shown to capture relevant features of metabolic resilence from measures time series of glcuose and insulin. The workshop will then explain the principles of parameter identifiablity and provide hands on experience using in-built Julia packages for determining parameter identifiability and an inplementation of the Profile Liklihood Analysis methods proposed by Raue et al [2].
-## References 
-[1]Maas AH, Rozendaal YJ, van Pul C, Hilbers PA, Cottaar WJ, Haak HR, van Riel NA. A physiology-based model describing heterogeneity in glucose metabolism: the core of the Eindhoven Diabetes Education Simulator (E-DES). J Diabetes Sci Technol. 2015 Mar;9(2):282-92. doi: 10.1177/1932296814562607.  
-[2] Raue A, Kreutz C, Maiwald T, Bachmann J, Schilling M, Klingmüller U, Timmer J. Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood. Bioinformatics. 2009 Aug 1;25(15):1923-9. doi: 10.1093/bioinformatics/btp358. 
-## Julia Installation and Environment Setup
+
+# Julia Installation and Environment Setup
 Here you will find some instructions on how to make sure the code from this repository can run on your computer. The workshop is built to fully work with Julia version 1.9. In this instruction, we will assume you are installing Julia 1.9, but any other version is installed in a similar way. 
 
 
@@ -117,3 +115,7 @@ To install all the required packages. You should now be able to run all the note
 
 #### Error opening notebooks in Windows VS Code
 In Windows, we noticed that notebooks may sometimes error when trying to open them in Visual Studio Code. This has to do with the path length limit in the Windows filesystem. The easiest fix is to place the repository folder in a directory that is higher up, so the paths will not be too long. 
+
+## References 
+[1]Maas AH, Rozendaal YJ, van Pul C, Hilbers PA, Cottaar WJ, Haak HR, van Riel NA. A physiology-based model describing heterogeneity in glucose metabolism: the core of the Eindhoven Diabetes Education Simulator (E-DES). J Diabetes Sci Technol. 2015 Mar;9(2):282-92. doi: 10.1177/1932296814562607.  
+[2] Raue A, Kreutz C, Maiwald T, Bachmann J, Schilling M, Klingmüller U, Timmer J. Structural and practical identifiability analysis of partially observed dynamical models by exploiting the profile likelihood. Bioinformatics. 2009 Aug 1;25(15):1923-9. doi: 10.1093/bioinformatics/btp358. 
