@@ -1,3 +1,5 @@
+<img src="figures/TUe.png" width="280" height="70"> <img src="figures/EAISI.png" width="200" height="60">
+
 # Parameter Indentifiability: Personalising the Eindhoven Diabetes Education Simulator
 This is the repository for the Tutorial on parameter uniqueness/identifiability as part of the VITAL Training School 1, Delft University of Technology on March 19th 2025. 
 
