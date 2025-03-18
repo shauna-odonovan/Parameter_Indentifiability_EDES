@@ -15,9 +15,11 @@ Shauna O'Donovan |  Max de Rooij |
 # Contents
 During the workshop, we will address the following elements of dynamic modelling in (systems) biology:
 
-Implementation and simulation of (biological) dynamic models using DifferentialEquations.jl
-Parameter estimation
-Parameter identifiability analysis with profile likelihood
+Implementation and simulation of (biological) dynamic models using DifferentialEquations.jl.
+
+Parameter estimation in Julia. 
+
+Parameter identifiability analysis with profile likelihood. 
 
 # Program
 The workshop starts with a short introductory presentation, outlining the releavnce of the gluocse-insulin system in maintaining metabolic resilence, the Eindhoven Diabetes Education Simulator (EDES), a computational model of the glucose-insulin system that has been shown to capture relevant features of metabolic resilence from measures time series of glcuose and insulin. The workshop will then explain the principles of parameter identifiablity and provide hands on experience using in-built Julia packages for determining parameter identifiability and an inplementation of the Profile Liklihood Analysis methods proposed by Raue et al [2].
