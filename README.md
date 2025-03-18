@@ -32,8 +32,7 @@ Here you will find some instructions on how to make sure the code from this repo
 The first step is to install the Julia version manager (`juliaup`), which enables you to have multiple Julia versions installed on your machine. This step is not mandatory for a properly working version of Julia, but it is useful if you are planning to use Julia for your own projects in the future.
 
 **Windows**:
-
->  **Note**
+>  [!NOTE]
 >  The `winget` command may not be available on your machine! In that case, you can download Julia from the Microsoft Store. If your organization prevents use of the Microsoft Store, you can follow the download instructions from https://julialang.org when clicking `Download`
 
 Open your favorite terminal, or press `Win`+`R`, type `cmd` in the text bar and press 'run'.
