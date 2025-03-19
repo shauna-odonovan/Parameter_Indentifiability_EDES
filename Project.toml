@@ -1,5 +1,6 @@
 [deps]
 CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 LikelihoodProfiler = "93acb638-a083-5915-8dce-d129bc6a3f59"
 Optimization = "7f7a1694-90dd-40f0-9382-eb1efda571ba"
 OrdinaryDiffEq = "1dea7af3-3e70-54e6-95c3-0bf5283fa5ed"
